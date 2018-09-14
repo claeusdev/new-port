@@ -1,18 +1,18 @@
 const path = require('path')
 
 module.exports = {
-    entry: 'index.js',
+    entry: "./index.js",
     output: {
-        path: path.resolve(__dirname, 'public'),
-        filename: 'main.js'
+        path: path.resolve(__dirname, "dist"),
+        filename: "main.js"
     },
     module: {
         rules: [
             {
                 test: /\.js$/,
-                loader: 'babel-loader',
+                loader: "babel-loader",
                 query: {
-                    presets: ['env']
+                    presets: ["env"]
                 }
             }
             
@@ -22,9 +22,9 @@ module.exports = {
         colors: true
     },
     devServer: {
-        contentBase: path.join(__dirname, 'public'),
+        contentBase: path.join(__dirname, "dist"),
         compress: true,
         port: 9000
     },
-    devtool: 'source-map'
+    devtool: "source-map"
 }
