@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for Nana Adjei Manu",
+  "main": "index.js",
+  "author": "Nana Adjei Manu",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "webpack": "^4.19.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.2",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.1.0"
+  }
+}
